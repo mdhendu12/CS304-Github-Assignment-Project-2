@@ -11,7 +11,7 @@ Below is an example of output from the program (*results will differ from the ex
 Output will vary each time the program is executed. Notice in this example that the same type of die, d8, appears twice. This can happen because each of the five dice is randomly chosen. It is possible to have multiple die of the same type appear in the output.
 
 ## Under the Hood
-This project is from an assignment for my CS232 (Java) class. Essentially, this assignment was the first program of the class to solidify knowledge of object-oriented-programming concepts. Assignments before this one had no classes or object, opting instead to do everything within the main method.
+This project is from an assignment for my CS232 (Java) class. Essentially, this assignment was the first program of the class to solidify knowledge of object-oriented-programming concepts. Assignments before this one had no classes or objects, opting instead to do everything from within the main method.
 
 There are two class files used in the program. One class file, Lab5, is the driver of the program and contains the logic of the program. The other class file is 'Die.class', which contains the class definition for the Die class.
 
@@ -26,3 +26,7 @@ This driver contains the main logic that makes the program work. Two array lists
 A for loop runs five times for each die. The type of dice is randomly chosen using the `Math.random()` function. The roll method is called, and the info from the current Die object is outputted to the console.
 ## What I Have Learned
 This assignment has helped me to solidify my understanding of some of the basic principles of object-oriented-programming. I made use of 'this.' in the constructor to explicitly refer to the instance fields in the class definition. I got experience in writing common methods found in many classes, such as 'accessor' methods and the `toString()` method.
+
+## Credits
+
+Thanks to Dr. Christopher Ogden of Jacksonville State University for this programming assignment.
